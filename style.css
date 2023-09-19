@@ -1,0 +1,36 @@
+body {background-image: url(background.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+h1 {color: black;}
+h2 {color: black;}
+h3 {color: black;} 
+p {color: black;} 
+p {border: 3px solid gray;
+padding: 1px;
+margin: 45px;}
+.topnav 
+{
+overflow:hidden;
+background-color: transparent;     
+}   
+.topnav a {
+float: left;
+color: black;
+text-align: center;
+padding: 5px 35px;
+text-decoration: underline;
+font-size: 20px;
+}
+
+.topnav a:hover {
+background-color: transparent;
+color: gray;
+}
+
+.topnav a.active {
+background-color: transparent;
+color: gray; 
+}
