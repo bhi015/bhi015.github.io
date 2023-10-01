@@ -1,11 +1,11 @@
-body {background-color: #F4F1DE
+body {background-color:#F4F1DE
  }
 h1 {color: #3D405B;
     text-align: center;
     text-decoration: underline;}
   h2 {color: #3D405B;}
     h3 {color: #3D405B;} 
-p {color: black;} 
+p {color: #3D405B;} 
 p {border: 3px solid #3D405B;
    padding: 1px;
    margin: 45px;}
