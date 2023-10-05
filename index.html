@@ -6,12 +6,33 @@
     <head>
         <title>Linus Kumpunen</title>
         <link rel="stylesheet" href="style.css">
-    
+        <style> 
+            @keyframes moveCloud {
+            0% {
+                transform: translateX(-90%);
+            }
+            100% {
+                transform: translateX(290%);
+            }
+        }
+
+        .cloud {
+            position: absolute;
+            top: 50%;
+            left: -10%;
+            width: 200px;
+            height: 100px;
+            background-color: #3D405B;
+            border-radius: 50%;
+            animation: moveCloud 10s linear infinite;
+            opacity: 0.6;
+        }
+            </style>
     </head>
         <body>
             <div class="topnav">
             <a class="active" href="#home">Home</a>    
-            <a <link href="news.html" href="#news">News</a>
+            <a <link href="school.html" href="#news">School</a>
             <a <link href="about.html" href="#about">About</a>
             <a <link href="contact.html" href="#contact">Contact</a>    
             </div>
@@ -24,11 +45,11 @@
                     Bussines information technology
                 </h3>
                 <p>
-                    Tervetuloa sivulleni, opi minusta selailemalla sivullani :)
+                    Tervetuloa sivuilleni, opi minusta selailemalla sivuillani :)
                 </p>
+                <div class="cloud"></div>
                 
-                
-                    
+                 
                 
         </body>
         
